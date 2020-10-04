@@ -174,7 +174,34 @@ button a:hover{
    padding-left:220px;
       
 }
-@media(min-width:600px) and (max-width:900px){
+@media(min-width:901px) and (max-width:1253px){
+    .name{
+      margin-top: 15vh;
+      margin-left: 600px;
+       font-size: 7rem;
+      line-height: 70px;
+      
+    }
+    .name .name1{
+        font-size: 2.5rem;
+       padding-left:170px;
+          
+    }
+    button{
+        height: 40px;
+        border: 0px;
+}
+.button{
+    display: grid;
+    column-gap: 10px;
+   grid-template-columns: 160px 190px;
+   margin-left: 620px;
+   margin-top: 10px;
+ 
+} 
+}
+
+@media(min-width:600px) and (max-width:1000px){
     .name{
         font-size: 4.3rem;
         margin-left: 300px;
