@@ -252,18 +252,18 @@ button a:hover{
     .name{
         font-size: 3rem;
         margin-left: 100px;
-
+    line-height:40px;
 
     }
     .name .name1{
         font-size: 1.3rem;
-        padding-left: 70px;
+        padding-left: 55px;
     }
     .button{
         display: grid;
         column-gap: 4px;
        grid-template-columns: 80px 90px;
-       margin-left: 100px;
+       margin-left: 110px;
        margin-top: 10px;
     
     }
@@ -278,6 +278,9 @@ button a:hover{
       font-size: 0.5rem;
        transition-property: padding-left font-size padding-top;
        transition-duration: 500ms;
+    }
+    button:hover{
+        font-size: 0.52rem;
     }
 }
 
